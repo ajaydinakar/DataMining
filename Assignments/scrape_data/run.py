@@ -1,10 +1,11 @@
+#*********************************************************************************
 #             Ajay Dinakar Kandavalli
 #             CMPS-5443 Data mining
 #                 Assignment-1   
 #         Scraping Data from a website     
 #              Language :python3,
-#   website choosed is www.allaboutcircuits.com(embedded projects website)  
-#*******************************************************************************
+#   website choosed is www.allaboutcircuits.com(embedded systems projects website)  
+#*********************************************************************************
 #importing libraries
 import bs4
 from urllib.request import urlopen as ureq
