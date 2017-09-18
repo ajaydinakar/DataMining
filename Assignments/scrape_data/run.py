@@ -15,8 +15,8 @@ f=open("projects.csv","w")
 f.write("project Name, Published Time, Year, Author \n")
 #interating multiple pages and
 #getting the url stored in variable
-for WPagenumb in range( 0, (5+1)*20, 20)[0:]:
-    WPagenumb=str(numb)
+for WPagenumb in range( 0, (5+1)*20, 20)[0:]:#as each page is multiple of 20
+    WPagenumb=str(numb)                      #ex:p20,p40,p60 etc in url
     #first webpage
     if WPagenumb is 0:
         url="https://www.allaboutcircuits.com/projects/category/embedded/"
