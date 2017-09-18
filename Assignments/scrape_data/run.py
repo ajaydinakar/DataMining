@@ -14,7 +14,7 @@ from bs4 import BeautifulSoup as soup
 f=open("projects.csv","w")
 f.write("project Name, Published Time, Year, Author \n")
 #interating multiple pages and
-#getting the url stored in and
+#getting the url stored in variable
 for WPagenumb in range( 0, (5+1)*20, 20)[0:]:
     WPagenumb=str(numb)
     #first webpage
@@ -27,7 +27,7 @@ for WPagenumb in range( 0, (5+1)*20, 20)[0:]:
     uclient=ureq(url)
     page_html=uclient.read()
     uclient.close()
-#parse the html
+#parse the html data
     page=soup(page_html,"html.parser")
     projects=page.findAll("div",{"class":"row archive-container"})
     
