@@ -1,6 +1,10 @@
-"""
- Ajay Dinakar 
-"""
+#*********************************************************************************
+#             Ajay Dinakar Kandavalli
+#             CMPS-5443 Data mining
+#                 Assignment-2   
+#         Simple Linear Regression    
+#              Language :python3, 
+#*********************************************************************************
 #importing libraries
 import numpy as np
 import pandas as pd
