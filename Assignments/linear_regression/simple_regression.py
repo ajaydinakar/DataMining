@@ -1,7 +1,5 @@
 """
-Created on Tue Sep 19 20:29:40 2017
-
-@author: Ajay Dinakar
+ Ajay Dinakar 
 """
 #importing libraries
 import numpy as np
