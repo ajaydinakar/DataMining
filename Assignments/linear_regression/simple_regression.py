@@ -11,7 +11,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 #importing the dataset
 dataset=pd.read_csv("mortage_rates.csv")
-#dataset=pd.read_csv("mortage_rates.csv", converters={'col3': lambda s: float(s.replace('$', ''))})
+#dataset=pd.read_csv("mortage_rates.csv", converters={'col3': lambda s: float(s.replace(('$',','), ''))})
 x=dataset.iloc[:,1:2].values
 y=dataset.iloc[:,2:3].values
 #splitting the dataset into the training set and test set
