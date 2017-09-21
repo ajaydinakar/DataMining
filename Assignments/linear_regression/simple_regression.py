@@ -11,9 +11,9 @@ import pandas as pd
 import matplotlib.pyplot as plt
 #importing the dataset
 dataset=pd.read_csv("mortage_rates.csv")
-x=dataset.iloc[:,0:1].values
-y=dataset.iloc[:,1:2].values
-
+#dataset=pd.read_csv("mortage_rates.csv", converters={'col3': lambda s: float(s.replace('$', ''))})
+x=dataset.iloc[:,1:2].values
+y=dataset.iloc[:,2:3].values
 #splitting the dataset into the training set and test set
 from sklearn.cross_validation import train_test_split
 x_train,x_test,y_train,y_test=train_test_split(x,y,test_size=1/3,random_state=0)
@@ -27,14 +27,14 @@ y_pred=regressor.predict(x_test)
 #visualising the training set results
 plt.scatter(x_train,y_train,color='red')
 plt.plot(x_train,regressor.predict(x_train),color='blue')
-plt.title('Year vs Intrest Rates')
-plt.xlabel('Year')
-plt.ylabel('Interest Rate')
+plt.title('Interest Rate vs Intrest Rates')
+plt.xlabel('Interest Rate')
+plt.ylabel('Housing Prices')
 plt.show()
 
 plt.scatter(x_test,y_test,color='red')
 plt.plot(x_train,regressor.predict(x_train),color='blue')
-plt.title('Year vs Intrest Rates')
-plt.xlabel('Year')
-plt.ylabel('Interest Rate')
+plt.title('Interest Rate vs Intrest Rates')
+plt.xlabel('Interest Rate')
+plt.ylabel('Housing Prices')
 plt.show()
