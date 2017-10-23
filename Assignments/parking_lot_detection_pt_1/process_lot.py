@@ -51,8 +51,8 @@ if __name__=='__main__':
    # if len(argv) < 3:
     #    exit()
 
-    definition_file = '/Users/ajay/practiceDM/parkinglot/pklot_sample.json'
-    image_file = '/Users/ajay/practiceDM/parkinglot/2012-12-17_17_27_25.jpg'
+    definition_file = '/home/ajay/practiceDM/Parkinglot/example.json'
+    image_file = '/home/ajay/practiceDM/Parkinglot/example.jpg'
 
     s=0
     

@@ -27,5 +27,5 @@ def xmltojson(file_name,out_file=None):
             print(point)
 
 if __name__=='__main__':
-    filename = '2012-12-07_17_27_25.xml'
-xmltojson(filename,'pklot_sample.json',)
+    filename = '/home/ajay/practiceDM/Parkinglot/example.xml'
+xmltojson(filename,'example.json',)
