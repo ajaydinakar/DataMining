@@ -8,7 +8,7 @@
 
 #### Powerpoint
 
-![My Powerpoint Presentation](http://google.com)
+![Region Based CNN's](http://google.com)
 
 #### Contributed Words
 
