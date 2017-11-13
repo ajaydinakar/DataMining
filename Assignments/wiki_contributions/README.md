@@ -12,6 +12,5 @@
 
 #### Contributed Words
 
-1. [Convolutional-Neural-Net](https://github.com/rugbyprof/5443-Data-Mining/wiki/Convolutional-Neural-Net)
-2. [Convolutions](https://github.com/rugbyprof/5443-Data-Mining/wiki/Convolutions) 
-3. etc.
+1. [Region Based CNNs](https://github.com/rugbyprof/5443-Data-Mining/wiki/Region-based-CNN's)
+
