@@ -8,7 +8,7 @@
 
 #### Powerpoint
 
-![Region Based CNN's](http://google.com)
+![Region Based CNN's](https://github.com/ajaydinakar/DataMining-Kandavalli/blob/master/Presentation8.pptx)
 
 #### Contributed Words
 
